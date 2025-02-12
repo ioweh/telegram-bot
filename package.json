@@ -1,0 +1,43 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "node ./server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.5",
+    "@mui/material": "^6.4.5",
+    "@mui/x-data-grid": "^7.27.0",
+    "client": "^0.0.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "telegram": "^2.26.16",
+    "xlsx": "^0.18.5"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "concurrently": "^9.1.2",
+    "less": "^4.2.2",
+    "less-loader": "^12.2.0",
+    "typescript": "^5.7.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
